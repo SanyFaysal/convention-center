@@ -4,3 +4,10 @@
 .badge{
      margin-top: -25px;
 }
+.toast{
+     border-left: 10px solid rgb(27, 126, 255)
+}
+.toast:hover{
+     border:2px solid rgb(27, 126, 255);
+     border-left: 10px solid rgb(27, 126, 255)
+}
