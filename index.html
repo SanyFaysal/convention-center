@@ -12,6 +12,11 @@
           integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
      <!-- font awesome link  -->
      <script src="https://kit.fontawesome.com/00ad57f9f5.js" crossorigin="anonymous"></script>
+     <!-- google font link  -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&family=Poppins:ital,wght@0,400;0,500;0,700;1,400&family=Rubik+Beastly&family=Ubuntu:wght@700&display=swap"
+          rel="stylesheet">
      <!-- css link  -->
      <link rel="stylesheet" href="style.css">
 </head>
@@ -62,11 +67,12 @@
                     <div class="carousel-inner mb-3">
                          <div class="carousel-item active" data-bs-interval="4000">
                               <img src="images/banner-one.png" class=" d-block w-100" alt="...">
-                              <div class="carousel-caption text-white  d-md-block">
-                                   <h2>The perfect venue for your
-                                        next event</h2>
-                                   <p>Some representative placeholder content for the first slide.</p>
-                                   <button type="button" class="btn btn-light text-primary fw-bold">Book Now</button>
+                              <div class="carousel-caption text-white  d-md-block ">
+                                   <h3 class="fs-sm-5">The perfect venue for your
+                                        next event</h3>
+                                   <p class="d-none d-md-inline d-lg-inline">Some representative placehol</p>
+                                   <button type="button" class="btn btn-light text-primary fw-bold p-sm-0">Book
+                                        Now</button>
                               </div>
                          </div>
                          <div class="carousel-item" data-bs-interval="4000">
@@ -74,7 +80,9 @@
                               <div class="carousel-caption text-white d-md-block">
                                    <h2>The perfect venue for your
                                         next eventl</h2>
-                                   <p>Some representative placeholder content for the second slide.</p>
+                                   <p class="d-none d-md-inline  d-lg-inline">Some representative placeholder content
+                                        for the second
+                                        slide.</p>
                                    <button type="button" class="btn btn-light text-primary fw-bold">Book Now</button>
                               </div>
                          </div>
@@ -83,7 +91,9 @@
                               <div class="carousel-caption text-white  d-md-block">
                                    <h2>The perfect venue for your
                                         next event</h2>
-                                   <p>Some representative placeholder content for the third slide.</p>
+                                   <p class="d-none d-md-inline  d-lg-inline">Some representative placeholder content
+                                        for the third
+                                        slide.</p>
                                    <button type="button" class="btn btn-light text-primary fw-bold">Book Now</button>
                               </div>
                          </div>
@@ -104,15 +114,59 @@
 
      <!-- main section  -->
      <main>
+          <!-- bonus section  -->
+          <section class="container  mx-auto my-5">
+               <!-- invitation -->
+               <div class="row d-flex my-3">
+                    <div class=" d-flex justify-content-center col-sm-12">
+                         <div class="">
+                              <h1 class="invite text-center text-danger fw-bold">Hellow</h1>
+                              <h2 class="text-center">February 8th, 2022 Gazipur, Chowrasta</h2>
+                              <p class="text-center">We invited you to celebrate our wedding</p>
+                         </div>
+                    </div>
+                    <!-- couple -->
+                    <div class="row ">
+                         <!-- gentelman  -->
+                         <div class="d-flex col-sm-12 col-lg-6 mb-sm-4 ">
+                              <div class="">
+                                   <h1 class="person me-3">Jasim Khan</h1>
+                                   <p>Far far away, behind the word mountains, far from the countries Vokalia
+                                   </p>
+                              </div>
+                              <div>
+                                   <img src="images/man.jpg" alt=""
+                                        style="width:150px; height: 150px; border-radius: 50%;">
+                              </div>
+                         </div>
+                         <!-- gentel lady -->
+                         <div class="d-flex col-sm--12 col-lg-6">
+                              <div>
+                                   <img src="images/girl.jpg" alt=""
+                                        style="width:150px; height: 150px; border-radius: 50%;">
+                              </div>
+                              <div class=" ms-3">
+                                   <h1 class="person">Jasmin Khanom</h1>
+                                   <p>Far far away, behind the word mountains, far from the countries Vokalia
+                                   </p>
+                              </div>
 
+                         </div>
+                    </div>
+               </div>
+
+
+          </section>
+          <!-- package section  -->
           <section class="container mx-auto">
                <div>
                     <h2 class=" text-center my-5 fw-bold">Our package</h1>
                </div>
                <!-- cards  -->
-               <div class="d-flex mb-0">
+               <div class="row ms-2">
                     <!-- card 1 -->
-                    <div class="card  border-0 ps-3 mt-5" style="width: 18rem;">
+                    <div class="card col-sm-12 col-lg-3 col-md-6 ms-sm-4  mb-0 border-0 ps-3 mt-5"
+                         style="width: 18rem;">
                          <ul class="card-body">
                               <h1 class="card-title">$300</h1>
                               <h2 class="card-subtitle mb-2 ">Business fair</h2>
@@ -134,7 +188,9 @@
                               " type="submit">Choose
                                    plan</button>
                     </div>
-                    <div class="card  border-0 ps-3 mt-5 mb-0" style="width: 18rem;">
+                    <!-- card 2  -->
+                    <div class="card  col-sm-12 col-lg-3  col-md-6 ms-sm-4   mb-0 border-0 ps-3 mt-5 mb-0"
+                         style="width: 18rem;">
                          <ul class="card-body">
                               <h1 class="card-title">$500</h1>
                               <h2 class="card-subtitle mb-2">Business fair</h2>
@@ -156,7 +212,9 @@
                                    plan</button>
 
                     </div>
-                    <div class="card  border-0 bg-primary text-light hot-item ps-3 pt-3 mt-0 " style="width: 18rem;">
+                    <!-- card 3  -->
+                    <div class="card  col-sm-12 col-lg-3  col-md-6 ms-sm-4 mb-0 border-0 bg-primary text-light hot-item ps-3 pt-3 mt-0 "
+                         style="width: 18rem;">
                          <span class="badge bg-danger text-end d-end position-absolute fs-6 rounded-pill ">Hot</span>
                          <ul class="card-body">
                               <h1 class="card-title">$800</h1>
@@ -179,7 +237,9 @@
                                    plan</button>
 
                     </div>
-                    <div class="card  border-0 ps-3 mt-5" style="width: 18rem;">
+                    <!-- card 4  -->
+                    <div class="card col-sm-12 col-lg-3  col-md-6  mb-0 ms-sm-4  border-0 ps-3 mt-5"
+                         style="width: 18rem;">
                          <ul class="card-body">
                               <h1 class="card-title">$1200</h1>
                               <h2 class="card-subtitle mb-2 ">Business fair</h2>
@@ -215,10 +275,13 @@
                     </div>
                </div>
           </section>
+          <!-- question & ans section  -->
           <section class="container mx-auto">
                <h2 class=" text-center my-5 fw-bold">Frequently Asked Questions</h1>
-                    <div class="d-flex  justify-content-between align-items-center">
-                         <div>
+
+                    <div class="row flex-column-reverse justify-content-between align-items-center">
+                         <!-- question div  -->
+                         <div class="col-sm-12 col-md-6 col-lg-6">
                               <div class="accordion" id="accordionExample">
                                    <div class="accordion-item">
                                         <h2 class="accordion-header" id="headingOne">
@@ -294,8 +357,9 @@
                                    </div>
                               </div>
                          </div>
-                         <div class="ms-5 d-flex ">
-                              <img src="images/people.png" alt="">
+                         <!-- pic div  -->
+                         <div class="ms-lg-5  col-sm-12 col-md-6 col-lg-6">
+                              <img src="images/people.png" alt="" class="w-100">
                          </div>
 
                     </div>
@@ -303,13 +367,13 @@
           </section>
      </main>
      <!-- footer section  -->
-     <footer class="  bg-dark text-white">
-          <section class="container mx-auto d-flex justify-content-between align-items-center my-5">
-               <div class="">
+     <footer class="  bg-dark text-white mb-4">
+          <section class="container mx-auto row flex-column-reverse justify-content-between align-items-center my-5">
+               <div class="col-sm-12 col-md-6 col-lg-6 mb-5 text-sm-center">
                     <small>© 2020 bike. All rights reserved</small>
                </div>
-               <div class="mb-5">
-                    <h2 class="my-4">Get the App</h4>
+               <div class="mb-5 col-sm-12 col-md-6 col-lg-6">
+                    <h2 class="my-4 text-sm-center">Get the App</h4>
                          <a href="https://www.apple.com/app-store/"
                               class="ps-2 pe-2 mb-4 text-decoration-none text-white d-flex align-items-center border rounded-3">
                               <i class="fab fa-apple fs-2"></i>

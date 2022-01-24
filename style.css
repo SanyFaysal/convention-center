@@ -1,3 +1,17 @@
+.carousel-title h2{
+     margin-bottom: 0px
+}
+.invite{
+     font-family: 'Lobster Two', cursive;
+     font-size: 50px;;
+}
+.person{
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-size: 28px;
+     font-weight: 700;
+     color:rgb(245, 84, 26)
+}
+
 .hot-item{
      border-radius:30px;;
 }
